@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Bekim Eletrônicos - Assistência técnica especializada em notebooks, MacBooks e desktops. Atendimento presencial e a domicílio." />
+  <title>Bekim Eletrônicos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #003840;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    .logo {
+      max-width: 150px;
+    }
+    .container {
+      padding: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h2 {
+      color: #003840;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .contact {
+      background-color: #e3f2f1;
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 20px;
+    }
+    .form {
+      margin-top: 20px;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: #003840;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    footer {
+      background-color: #003840;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .social a {
+      margin: 0 10px;
+      text-decoration: none;
+      color: #003840;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/Wt2U2eZ.png" alt="Logo Bekim" class="logo" />
+    <h1>Bekim Eletrônicos</h1>
+    <p>Assistência técnica especializada em MacBook, Notebook e Desktop</p>
+  </header>
+
+  <div class="container">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Formatação</li>
+      <li>Instalação de software</li>
+      <li>Troca de teclado, tela e bateria</li>
+      <li>Reparo de carcaça (notebook)</li>
+      <li>Higienização</li>
+      <li>Upgrade de memória e SSD/HD</li>
+    </ul>
+
+    <h2>Solicite um orçamento</h2>
+    <form class="form">
+      <input type="text" placeholder="Seu nome" required />
+      <input type="tel" placeholder="Seu telefone" required />
+      <input type="text" placeholder="Modelo do aparelho" required />
+      <textarea rows="4" placeholder="Descreva o problema"></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+
+    <div class="contact">
+      <h2>Fale Conosco</h2>
+      <p><strong>WhatsApp:</strong> <a href="https://wa.me/5511916722427" target="_blank">(11) 91672-2427</a></p>
+      <p><strong>Instagram:</strong> <a href="https://instagram.com/bekimb2b" target="_blank">@bekimb2b</a></p>
+      <p><strong>Email:</strong> <a href="mailto:assistencia.bekimb2b@gmail.com">assistencia.bekimb2b@gmail.com</a></p>
+      <p>Atendimento presencial e à domicílio. Consulte regiões atendidas.</p>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Bekim Eletrônicos. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
